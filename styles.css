@@ -137,4 +137,50 @@ body {
 
 .game-card {
   border-radius: 25px;
-  background-color: #d
+  background-color: #d9d9d9;
+  color: #000;
+  font: 700 30px 'Inter', sans-serif;
+  padding: 28px 24px;
+  width: 22%; /* Make the game cards narrower */
+  height: 350px; /* Increase the height for a longer appearance */
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .casino-header {
+      padding: 10px 20px;
+  }
+
+  .casino-logo {
+      font-size: 40px;
+  }
+
+  .balance-container,
+  .add-funds-btn {
+      padding: 10px 15px;
+      font-size: 18px;
+  }
+
+  .main-content {
+      flex-direction: column;
+  }
+
+  .sidebar,
+  .games-container {
+      width: 100%;
+  }
+
+  .games-container {
+      padding: 20px 10px 60px;
+  }
+
+  .game-grid {
+      flex-direction: column;
+  }
+
+  .game-card {
+      width: 100%;
+      padding: 20px;
+      height: auto;
+  }
+}
