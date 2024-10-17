@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casino</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casino</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
   <header class="casino-header">
     <h1 class="casino-logo">Name</h1>
     <div class="balance-container">
-      <div class="balance-display">
+      <div class="balance-info">
         <span class="balance-icon">🟡</span>
         <span>$0.00</span>
       </div>
@@ -27,8 +26,8 @@
       </div>
     </div>
   </header>
-  
-  <main class="casino-content">
+
+  <main class="main-content">
     <nav class="sidebar">
       <div class="sidebar-item">
         <span>Games</span>
@@ -39,10 +38,10 @@
         <span>&gt;</span>
       </div>
     </nav>
-  
-    <section class="main-content">
-      <div class="banner"></div>
-      <h2 class="section-title">Games</h2>
+
+    <section class="games-container">
+      <div class="featured-game"></div>
+      <h2 class="games-title">Games</h2>
       <div class="game-grid">
         <article class="game-card">PLINKO</article>
         <article class="game-card">BLACKJACK</article>
@@ -50,6 +49,5 @@
       </div>
     </section>
   </main>
-  <script src="script.js"></script>
 </body>
 </html>
