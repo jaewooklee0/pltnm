@@ -14,6 +14,7 @@ body {
   background-color: rgba(36, 41, 52, 0.96);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
+  height:100px;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -56,6 +57,34 @@ body {
   border: 1px solid #000;
   color: white;
   cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-text {
+  color: #fff;
+  font: 400 24px 'Istok Web', sans-serif;
+}
+
+.search-icon {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon-inner {
+  background-color: #a59f9f;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
 }
 
 .main-content {
