@@ -65,11 +65,6 @@ body {
   gap: 20px;
 }
 
-.search-text {
-  color: #fff;
-  font: 400 24px 'Istok Web', sans-serif;
-}
-
 .search-icon {
   background-color: #d9d9d9;
   border-radius: 50%;
@@ -99,13 +94,6 @@ body {
   font: 700 22px 'Istok Web', sans-serif;
   padding: 25px 19px;
   width: 18%;
-}
-
-.sidebar-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 31px;
-  cursor: pointer;
 }
 
 .games-container {
